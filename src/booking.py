@@ -3,7 +3,7 @@
 
 def remaining_tickets(limit, used):
     """정원보다 접수 인원이 많아도 남은 입장권은 0장입니다."""
-    return max(0, limit - used)
+    return limit - used
 
 
 def discounted_price(price, percent):
